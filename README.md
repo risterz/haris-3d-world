@@ -4,6 +4,7 @@
 
 ### *Drive through Haris Al-Harraz’s sunlit 3D playground to explore live projects, skills, and engineering milestones.*
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-haris--3d--world.pages.dev-EF4B34?style=flat-square&logo=cloudflarepages&logoColor=white)](https://haris-3d-world.pages.dev)
 [![Next.js](https://img.shields.io/badge/Next.js-14-1A1E2E?style=flat-square&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
 [![Three.js](https://img.shields.io/badge/Three.js-R3F-2355F5?style=flat-square&logo=threedotjs&logoColor=white)](https://docs.pmnd.rs/react-three-fiber)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
