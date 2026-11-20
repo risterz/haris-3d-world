@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #F4C89A;
+  color: #1A1E2E;
+  overscroll-behavior: none;
+}
+
+/* Retro-pop coral & cream checkerboard ribbon */
+.checker-ribbon {
+  background-color: #FFFBF2;
+  background-image:
+    linear-gradient(45deg, #EF4B34 25%, transparent 25%),
+    linear-gradient(-45deg, #EF4B34 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #EF4B34 75%),
+    linear-gradient(-45deg, transparent 75%, #EF4B34 75%);
+  background-size: 16px 16px;
+  background-position: 0 0, 0 8px, 8px -8px, -8px 0;
+}
+
+/* Tactile pop button press behavior */
+.pop-btn {
+  border: 2px solid #1A1E2E;
+  box-shadow: 3px 3px 0px #1A1E2E;
+  transition: transform 0.12s ease, box-shadow 0.12s ease, background-color 0.15s ease;
+}
+
+.pop-btn:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 4px 4px 0px #1A1E2E;
+}
+
+.pop-btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0px #1A1E2E;
+}
+
+/* Custom scrollbar for drawers/modals */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F7EEDB;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2355F5;
+  border-radius: 9999px;
+  border: 2px solid #F7EEDB;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid #2355F5;
+  outline-offset: 2px;
+}
+
+.touch-joystick-zone {
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
