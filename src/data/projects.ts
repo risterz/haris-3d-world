@@ -18,7 +18,30 @@ export interface Project {
 }
 
 export const projects: Project[] = [
-  // 9 Drive-In Alley Featured Live Websites (all verified HTTP 200)
+  // 10 Drive-In Alley Featured Live Websites (all verified HTTP 200)
+  {
+    id: 'cosmic-odyssey',
+    title: 'Cosmic Odyssey — 3D Space Exploration',
+    shortTitle: 'Cosmic Odyssey',
+    description:
+      'Cinematic, scroll-driven 3D space voyage through rotating Earth, Whirlpool Galaxy, four interactive worlds, and NASA spacewalk storytelling.',
+    longDescription:
+      'Five-chapter interactive deep-space experience built with React 19, TypeScript, Three.js, GSAP ScrollTrigger, Lenis smooth scroll, and synthesized Web Audio soundscapes. Features custom GLSL planetary atmospheres, selectable 3D worlds with astronomical archives, guided autopilot, and full keyboard accessibility.',
+    technologies: ['React 19', 'TypeScript', 'Three.js', 'GSAP', 'Lenis', 'Web Audio API'],
+    githubUrl: 'https://github.com/risterz/cosmic-odyssey',
+    liveUrl: 'https://cosmic-odyssey.pages.dev',
+    category: '3D Space Experience',
+    status: 'completed',
+    featured: true,
+    driveInFeatured: true,
+    period: 'Nov 2026',
+    image: '/images/projects/cosmic-odyssey-hero.png',
+    images: [
+      '/images/projects/cosmic-odyssey-hero.png',
+      '/images/projects/cosmic-odyssey-weightless.png',
+    ],
+    accentColor: '#3B82F6',
+  },
   {
     id: 'brawl-arena',
     title: 'Brawl Arena — 3D 3v3 Multiplayer Brawler',

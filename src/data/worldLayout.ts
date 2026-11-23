@@ -54,8 +54,8 @@ export interface RoadSegment {
 export const ROAD_SEGMENTS: RoadSegment[] = [
   // Central N-S spine from Contact Pit-Stop through Start Plaza to Projects Alley
   { id: 'spine-ns', position: [0, 0.02, -1], width: 7.2, length: 62, dashedAxis: 'z' },
-  // Grand Projects Drive-In Boulevard (all 9 projects line the North edge facing camera!)
-  { id: 'projects-ew', position: [0, 0.02, -28], width: 90, length: 7.5, dashedAxis: 'x' },
+  // Grand Projects Drive-In Boulevard (all 10 projects line the North edge facing camera!)
+  { id: 'projects-ew', position: [0, 0.02, -28], width: 96, length: 7.5, dashedAxis: 'x' },
   // East-West avenue connecting Journey Road (West) and Skills Playground (East)
   { id: 'central-ew', position: [0, 0.02, 0], width: 92, length: 6.8, dashedAxis: 'x' },
   // Ramp approach lane in Skills Playground
@@ -63,77 +63,85 @@ export const ROAD_SEGMENTS: RoadSegment[] = [
 ]
 
 export const PROJECT_BILLBOARDS: ProjectBillboardDef[] = [
-  // Single grand North Drive-In row — all 9 face South/Southeast toward the camera!
+  // Single grand North Drive-In row — all 10 face South/Southeast toward the camera!
+  {
+    id: 'bb-cosmic-odyssey',
+    projectId: 'cosmic-odyssey',
+    position: [-40.5, 0, -39.5],
+    rotationY: 0.14,
+    padPosition: [-40.5, -33.2],
+    accentColor: '#3B82F6',
+  },
   {
     id: 'bb-brawl-arena',
     projectId: 'brawl-arena',
-    position: [-38, 0, -39.5],
+    position: [-31.5, 0, -39.5],
     rotationY: 0.14,
-    padPosition: [-38, -33.2],
+    padPosition: [-31.5, -33.2],
     accentColor: '#8B4DFF',
   },
   {
     id: 'bb-donutverse',
     projectId: 'donutverse',
-    position: [-28.5, 0, -39.5],
+    position: [-22.5, 0, -39.5],
     rotationY: 0.14,
-    padPosition: [-28.5, -33.2],
+    padPosition: [-22.5, -33.2],
     accentColor: '#D92B4B',
   },
   {
     id: 'bb-keythock',
     projectId: 'keythock',
-    position: [-19, 0, -39.5],
+    position: [-13.5, 0, -39.5],
     rotationY: 0.14,
-    padPosition: [-19, -33.2],
+    padPosition: [-13.5, -33.2],
     accentColor: '#2355F5',
   },
   {
     id: 'bb-roomforge',
     projectId: 'roomforge-3d',
-    position: [-9.5, 0, -39.5],
+    position: [-4.5, 0, -39.5],
     rotationY: 0.14,
-    padPosition: [-9.5, -33.2],
+    padPosition: [-4.5, -33.2],
     accentColor: '#E07A47',
   },
   {
     id: 'bb-uno',
     projectId: 'uno-card-game',
-    position: [0, 0, -39.5],
+    position: [4.5, 0, -39.5],
     rotationY: 0.14,
-    padPosition: [0, -33.2],
+    padPosition: [4.5, -33.2],
     accentColor: '#EF4B34',
   },
   {
     id: 'bb-win98',
     projectId: 'windows98-emulator',
-    position: [9.5, 0, -39.5],
+    position: [13.5, 0, -39.5],
     rotationY: 0.14,
-    padPosition: [9.5, -33.2],
+    padPosition: [13.5, -33.2],
     accentColor: '#008080',
   },
   {
     id: 'bb-papercraft',
     projectId: 'papercraft-pdf',
-    position: [19, 0, -39.5],
+    position: [22.5, 0, -39.5],
     rotationY: 0.14,
-    padPosition: [19, -33.2],
+    padPosition: [22.5, -33.2],
     accentColor: '#F9DA19',
   },
   {
     id: 'bb-ember',
     projectId: 'ember-olive',
-    position: [28.5, 0, -39.5],
+    position: [31.5, 0, -39.5],
     rotationY: 0.14,
-    padPosition: [28.5, -33.2],
+    padPosition: [31.5, -33.2],
     accentColor: '#B85D3B',
   },
   {
     id: 'bb-hivatlas',
     projectId: 'hiv-atlas',
-    position: [38, 0, -39.5],
+    position: [40.5, 0, -39.5],
     rotationY: 0.14,
-    padPosition: [38, -33.2],
+    padPosition: [40.5, -33.2],
     accentColor: '#C84B31',
   },
 ]
@@ -287,11 +295,11 @@ export const TREE_POSITIONS: Array<{ position: Vec3; scale: number; tint: string
   { position: [-14, 0, 14], scale: 0.9, tint: '#63BF78' },
   { position: [11, 0, 9], scale: 1.1, tint: '#4FAF6A' },
   { position: [15, 0, 15], scale: 0.95, tint: '#3F9658' },
-  // Flanking North Projects Alley (shifted outside x = -35..+35 row)
-  { position: [-45, 0, -42], scale: 1.25, tint: '#4FAF6A' },
-  { position: [-47, 0, -33], scale: 0.95, tint: '#63BF78' },
-  { position: [45, 0, -42], scale: 1.2, tint: '#4FAF6A' },
-  { position: [47, 0, -33], scale: 1.0, tint: '#3F9658' },
+  // Flanking North Projects Alley (shifted outside x = -44..+44 row)
+  { position: [-48.5, 0, -42], scale: 1.25, tint: '#4FAF6A' },
+  { position: [-49.5, 0, -33], scale: 0.95, tint: '#63BF78' },
+  { position: [48.5, 0, -42], scale: 1.2, tint: '#4FAF6A' },
+  { position: [49.5, 0, -33], scale: 1.0, tint: '#3F9658' },
   { position: [-38, 0, -18], scale: 1.05, tint: '#63BF78' },
   { position: [38, 0, -18], scale: 1.1, tint: '#4FAF6A' },
   // West Journey Road grove
