@@ -18,7 +18,27 @@ export interface Project {
 }
 
 export const projects: Project[] = [
-  // 8 Drive-In Alley Featured Live Websites (all verified HTTP 200)
+  // 9 Drive-In Alley Featured Live Websites (all verified HTTP 200)
+  {
+    id: 'brawl-arena',
+    title: 'Brawl Arena — 3D 3v3 Multiplayer Brawler',
+    shortTitle: 'Brawl Arena',
+    description:
+      'Fast-paced 3D 3v3 real-time multiplayer arena brawler with 7 rigged GLB brawlers, Gem Grab & Brawl Ball modes, A* bot AI, and Cloudflare Durable Objects.',
+    longDescription:
+      'Full-stack 3D browser brawler built with Three.js, TypeScript workspaces, and Cloudflare Workers + SQLite Durable Objects. Features 7 custom-rigged 3D brawlers with smooth skeletal animations and emissive shaders, 3 symmetric arenas with destructible cover, WebSocket room lobbies, offline A* bot play, and cross-platform PC + mobile twin-stick controls.',
+    technologies: ['TypeScript', 'Three.js', 'Cloudflare Workers', 'Durable Objects', 'Vite'],
+    githubUrl: 'https://github.com/risterz/brawl-arena',
+    liveUrl: 'https://brawl-arena.harisharraz02.workers.dev',
+    category: '3D Multiplayer Game',
+    status: 'completed',
+    featured: true,
+    driveInFeatured: true,
+    period: 'Nov 2026',
+    image: '/images/projects/brawl-arena-lobby.png',
+    images: ['/images/projects/brawl-arena-lobby.png', '/images/projects/brawl-arena-match.png'],
+    accentColor: '#8B4DFF',
+  },
   {
     id: 'donutverse',
     title: 'DONUTVERSE — Artisan 3D Donut Storefront',

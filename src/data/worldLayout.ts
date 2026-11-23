@@ -54,8 +54,8 @@ export interface RoadSegment {
 export const ROAD_SEGMENTS: RoadSegment[] = [
   // Central N-S spine from Contact Pit-Stop through Start Plaza to Projects Alley
   { id: 'spine-ns', position: [0, 0.02, -1], width: 7.2, length: 62, dashedAxis: 'z' },
-  // Grand Projects Drive-In Boulevard (all 8 projects line the North edge facing camera!)
-  { id: 'projects-ew', position: [0, 0.02, -28], width: 84, length: 7.5, dashedAxis: 'x' },
+  // Grand Projects Drive-In Boulevard (all 9 projects line the North edge facing camera!)
+  { id: 'projects-ew', position: [0, 0.02, -28], width: 90, length: 7.5, dashedAxis: 'x' },
   // East-West avenue connecting Journey Road (West) and Skills Playground (East)
   { id: 'central-ew', position: [0, 0.02, 0], width: 92, length: 6.8, dashedAxis: 'x' },
   // Ramp approach lane in Skills Playground
@@ -63,69 +63,77 @@ export const ROAD_SEGMENTS: RoadSegment[] = [
 ]
 
 export const PROJECT_BILLBOARDS: ProjectBillboardDef[] = [
-  // Single grand North Drive-In row — all 8 face South/Southeast toward the camera!
+  // Single grand North Drive-In row — all 9 face South/Southeast toward the camera!
+  {
+    id: 'bb-brawl-arena',
+    projectId: 'brawl-arena',
+    position: [-38, 0, -39.5],
+    rotationY: 0.14,
+    padPosition: [-38, -33.2],
+    accentColor: '#8B4DFF',
+  },
   {
     id: 'bb-donutverse',
     projectId: 'donutverse',
-    position: [-35, 0, -39.5],
+    position: [-28.5, 0, -39.5],
     rotationY: 0.14,
-    padPosition: [-35, -33.2],
+    padPosition: [-28.5, -33.2],
     accentColor: '#D92B4B',
   },
   {
     id: 'bb-keythock',
     projectId: 'keythock',
-    position: [-25, 0, -39.5],
+    position: [-19, 0, -39.5],
     rotationY: 0.14,
-    padPosition: [-25, -33.2],
+    padPosition: [-19, -33.2],
     accentColor: '#2355F5',
   },
   {
     id: 'bb-roomforge',
     projectId: 'roomforge-3d',
-    position: [-15, 0, -39.5],
+    position: [-9.5, 0, -39.5],
     rotationY: 0.14,
-    padPosition: [-15, -33.2],
+    padPosition: [-9.5, -33.2],
     accentColor: '#E07A47',
   },
   {
     id: 'bb-uno',
     projectId: 'uno-card-game',
-    position: [-5, 0, -39.5],
+    position: [0, 0, -39.5],
     rotationY: 0.14,
-    padPosition: [-5, -33.2],
+    padPosition: [0, -33.2],
     accentColor: '#EF4B34',
   },
   {
     id: 'bb-win98',
     projectId: 'windows98-emulator',
-    position: [5, 0, -39.5],
+    position: [9.5, 0, -39.5],
     rotationY: 0.14,
-    padPosition: [5, -33.2],
+    padPosition: [9.5, -33.2],
     accentColor: '#008080',
   },
   {
     id: 'bb-papercraft',
     projectId: 'papercraft-pdf',
-    position: [15, 0, -39.5],
+    position: [19, 0, -39.5],
     rotationY: 0.14,
-    padPosition: [15, -33.2],
+    padPosition: [19, -33.2],
     accentColor: '#F9DA19',
   },
   {
     id: 'bb-ember',
     projectId: 'ember-olive',
-    position: [25, 0, -39.5],
+    position: [28.5, 0, -39.5],
     rotationY: 0.14,
-    padPosition: [25, -33.2],
+    padPosition: [28.5, -33.2],
     accentColor: '#B85D3B',
   },
   {
     id: 'bb-hivatlas',
     projectId: 'hiv-atlas',
-    position: [35, 0, -39.5],
+    position: [38, 0, -39.5],
     rotationY: 0.14,
-    padPosition: [35, -33.2],
+    padPosition: [38, -33.2],
     accentColor: '#C84B31',
   },
 ]
