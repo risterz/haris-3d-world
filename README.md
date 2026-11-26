@@ -24,11 +24,11 @@
 - **Interactive 3D Driving World** — Hop into a procedural coral-and-yellow 3D toy truck with spinning/steering wheels, bouncy suspension pitch & roll, turbo boost flames, exhaust puffs, bunny hop (`Space`), stunt ramp launch, and smashable props (`HARIS` letter blocks, bowling pins, traffic cones, wooden crates, skill cubes, and a giant soccer ball).
 - **5 Road-Connected Zones**
   - **Start Plaza** — Welcome intro popup (`haris-world.exe`), knockable 3D `HARIS` blocks, and painted ground controls.
-  - **Projects Drive-In Boulevard** — 10 camera-facing 3D billboards displaying real screenshots of verified live web projects (`Cosmic Odyssey`, `Brawl Arena`, `DONUTVERSE`, `KeyThock 3D`, `RoomForge 3D`, `UNO Online`, `Windows 98 Web OS`, `Papercraft PDF`, `Ember & Olive`, `HIV Atlas`) with glowing drive-in parking pads.
+  - **Projects Drive-In Boulevard** — 11 camera-facing 3D billboards displaying real screenshots of verified live web projects (`VELA — Donut V`, `Cosmic Odyssey`, `Brawl Arena`, `DONUTVERSE`, `KeyThock 3D`, `RoomForge 3D`, `UNO Online`, `Windows 98 Web OS`, `Papercraft PDF`, `Ember & Olive`, `HIV Atlas`) with glowing drive-in parking pads.
   - **Skills Playground** — 4 themed skill islands paired with a chevron stunt ramp and 10-pin bowling lane.
   - **Journey Road** — Roadside milestone boards highlighting experience at Alev Global Sdn. Bhd., UiTM Kampus Jasin, STPM, and RawSEC CTF.
   - **Contact Pit-Stop** — Roadside billboard, animated toy mailbox, and one-click Email, GitHub, LinkedIn, and Phone card.
-- **Playful Retro-Pop HUD & Recruiter Quick View** — Zone teleport pills, live clickable minimap radar, speedometer + turbo meter, mobile touch joystick & pedals, retro OS-window project modals, and a full **Quick View** drawer so visitors can browse all 16 projects without driving.
+- **Playful Retro-Pop HUD & Recruiter Quick View** — Zone teleport pills, live clickable minimap radar, speedometer + turbo meter, mobile touch joystick & pedals, retro OS-window project modals, and a full **Quick View** drawer so visitors can browse all 17 projects without driving.
 - **Zero-WASM 60fps Arcade Physics + Web Audio SFX** — Pure TypeScript vehicle & prop impulse physics (`src/lib/vehiclePhysics.ts`, covered by Node unit tests) plus synthesized Web Audio engine hum, two-tone horn, hop chirp, pad chimes, and prop bonks.
 
 ---

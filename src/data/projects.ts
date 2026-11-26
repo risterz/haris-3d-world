@@ -18,7 +18,30 @@ export interface Project {
 }
 
 export const projects: Project[] = [
-  // 10 Drive-In Alley Featured Live Websites (all verified HTTP 200)
+  // 11 Drive-In Alley Featured Live Websites (all verified HTTP 200)
+  {
+    id: 'vela-atelier',
+    title: 'VELA — Donut V Architectural Showcase',
+    shortTitle: 'VELA Donut V',
+    description:
+      'Zero-framework luxury patisserie showcase with real-time WebGL1 fluid sprinkle reveal, 12-dot SDF blooming mark, parametric 3D SVG CAD wireframes, and interactive glaze studio.',
+    longDescription:
+      'Built with vanilla ES modules, Lenis smooth scroll, raw WebGL1 GLSL shaders, and a 25-plate headless Three.js PBR studio renderer in ~27 KB gzipped. Features a 3-pass ping-pong fluid cursor reveal uncovering 280 cascading 3D sprinkles, 6-act scroll choreography, holdout-occluded interactive glaze dipping studio, and full SPA checkout.',
+    technologies: ['WebGL1 GLSL', 'Three.js', 'Lenis', 'Vite 6', 'SVG CAD', 'Cloudflare Pages'],
+    githubUrl: 'https://github.com/risterz/vela-atelier',
+    liveUrl: 'https://vela-atelier.pages.dev',
+    category: '3D & WebGL Showcase',
+    status: 'completed',
+    featured: true,
+    driveInFeatured: true,
+    period: 'Nov 2026',
+    image: '/images/projects/vela-atelier-hero.png',
+    images: [
+      '/images/projects/vela-atelier-hero.png',
+      '/images/projects/vela-atelier-studio.png',
+    ],
+    accentColor: '#B8925A',
+  },
   {
     id: 'cosmic-odyssey',
     title: 'Cosmic Odyssey — 3D Space Exploration',
